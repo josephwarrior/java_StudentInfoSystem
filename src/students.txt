@@ -1,0 +1,4 @@
+alberto|gonzalez|c0002|M
+John|Fieldersberg|k0002|M
+Diana|Paternina|e0006|F
+Yoly|Medellin|t0003|F
