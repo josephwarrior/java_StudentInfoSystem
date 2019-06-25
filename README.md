@@ -10,9 +10,9 @@ A program that provides an interface to save/read students info into/from a txt 
 The following screenshot shows the resulting graphic interface and the register content, displaying 4 students:
 ![screenshot Student Info System interface2](https://user-images.githubusercontent.com/43050275/60132591-6befa480-9761-11e9-8f8f-c3915246669b.png)
 
-There are 4 buttons to interact with the system
-<br/>ADD: The system includes, into the register, the info entered in the corresponding fields
-<br/>DELETE: The student which id is entered, is deleted from the register
-<br/>SEARCH BY ID: The system shows the info corresponding to the student whose id was entered
-<br/>DISPLAY REGISTER: The system shows all the info contained in the register
+There are 4 buttons to interact with the system:
+<br/>ADD --> The system includes, into the register, the info entered in the corresponding fields
+<br/>DELETE --> The student which id is entered, is deleted from the register
+<br/>SEARCH BY ID --> The system shows the info corresponding to the student whose id was entered
+<br/>DISPLAY REGISTER --> The system shows all the info contained in the register
 
