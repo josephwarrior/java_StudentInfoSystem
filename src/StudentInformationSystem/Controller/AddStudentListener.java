@@ -41,6 +41,7 @@ public class AddStudentListener implements ActionListener {
                 && !genderField.getText().equals("")) {
             if (studentInputPanel.getFrame().getController().getStudents().addStudent(firstNameField.getText(),
                         lastNameField.getText(), idField.getText(), genderField.getText())) {
+                studentInputPanel.getFrame().getController().uploadStudentRegisterInfo();
                 statusString = "Student with id " + idField.getText() + " SUCCESSFULLY registered !";
             } else {
                 statusString = "xxx id " + idField.getText() + " is already registered xxx";
