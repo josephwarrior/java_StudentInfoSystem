@@ -36,6 +36,7 @@ public class DeleteStudentListener implements ActionListener {
         String statusString = null;
         if (!idField.getText().equals("")) {
             if (studentInputPanel.getFrame().getController().getStudents().deleteStudentWithKnownId(idField.getText())) {
+                studentInputPanel.getFrame().getController().uploadStudentRegisterInfo();
                 statusString = "xxx Student with id " + idField.getText() + " SUCCESSFULLY deleted xxx";
             } else {
                 statusString = "id " + idField.getText() + " is not registered !";
