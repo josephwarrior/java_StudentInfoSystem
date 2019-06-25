@@ -10,4 +10,4 @@ A program that provides an interface to save/read students info into/from a txt 
 
 fsfsdafasf
 
-![Image](screenshot Student Info System interface2.png)
+![Image](https://github.com/josephwarrior/java_StudentInfoSystem/blob/master/screenshot Student Info System interface2.png?raw=true)
