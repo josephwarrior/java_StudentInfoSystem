@@ -38,6 +38,40 @@ public class StudentInfoController {
         }
     }
     
+    public void uploadStudentRegisterInfo(){
+        BufferedWriter writer=null;
+        try{
+            File file=new File("src/students.txt");
+            FileWriter fileWriter=new FileWriter(file);
+            writer=new BufferedWriter(fileWriter);
+            
+            StringBuilder sb=new StringBuilder();
+            int i=1;
+            for(Student s:students.getStudents()){    
+                sb.append(s.getFirstName());
+                sb.append("|");
+                sb.append(s.getLastName());
+                sb.append("|");
+                sb.append(s.getId());
+                sb.append("|");
+                sb.append(s.getGender());
+                if(i<students.getSize()){
+                    sb.append("\n");
+                }
+                i++;
+            }
+            writer.append(sb.toString());
+        }catch(Exception exc){
+            exc.printStackTrace();
+        }finally{
+            try{
+            writer.close();
+            }catch(Exception e){
+                e.printStackTrace();
+            }
+        }
+    }
+    
     
     /////// HELPERS /////////////
     public String[][] getInfoArrayOfStudentWithId(String id){
