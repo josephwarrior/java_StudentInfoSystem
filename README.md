@@ -3,7 +3,7 @@ A program that provides an interface to save/read students info into/from a txt 
 
 
 # What I Learned
-<br/>-Developed graphical interface and the backend code to process the info entered or requested through it
+-Developed graphical interface and the backend code to process the info entered or requested through it
 <br/>-Integrated java, oop and the file management system to provide a simple way to store info.
   
 # How it works
