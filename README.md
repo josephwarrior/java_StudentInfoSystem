@@ -8,3 +8,6 @@ A program that provides an interface to save/read students info into/from a txt 
   
 # How it works
 
+fsfsdafasf
+
+![Image](screenshot Student Info System interface2.png)
